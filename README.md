@@ -15,9 +15,11 @@ The course requirements were to "extract the measurements on the mean and std de
 
 A wide dataset with 180 observations covering 68 variables (33 variables with Mean/Std.Dev. plus Activity Type and Subject). Like so:
 
->Subject         Activity 		tBodyAcc-mean()-X 	tBodyAcc-mean()-Y tBodyAcc-mean()-Z
->1       1          WALKING         0.2773308       -0.01738382        -0.1111481
->2       1 WALKING_UPSTAIRS         0.2554617       -0.02395315        -0.0973020  
+| Subject | Activity         | tBodyAcc-mean()-X | tBodyAcc-mean()-Y | tBodyAcc-mean()-Z |
+|---------|------------------|-------------------|-------------------|-------------------|
+| 1       | WALKING          | 0.2773308         | -0.01738382       | -0.1111481        |
+| 2       | WALKING_UPSTAIRS | 0.2554617         | -0.02395315       | -0.0973020        |
+
 
 Output is in a space-delimited that should require no special effort to read into R with read.table.
 
