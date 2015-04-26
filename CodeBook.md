@@ -32,35 +32,36 @@ Observations
 	[domain][Measurement][mean/std][Axis]
 ```
 
-	Where:
-			**domain** - t for time domain, f for frequency domain (fourier transform)
-			**Measurement** - measurement name, e.g. BodyAcc for subject's bodily acceleration.  Raw data was processed into acceleration due to gravity and that of the body itself.  Jerk represents linear velocity and angular momentum, and Mag the magnitude of the given measurements.
-			**mean/std** - either the average or standard deviation of the measurements 
-			**Axis** - X/Y/Z data where applicable, not present for calculated magnitude
+Where:
+	**domain** - t for time domain, f for frequency domain (fourier transform)
+	**Measurement** - measurement name, e.g. BodyAcc for subject's bodily acceleration.  Raw data was processed into acceleration due to gravity and that of the body itself.  Jerk represents linear velocity and angular momentum, and Mag the magnitude of the given measurements.
+	**mean/std** - either the average or standard deviation of the measurements 
+	**Axis** - X/Y/Z data where applicable, not present for calculated magnitude
 		
-	Hence:
+Hence:
 
-		tBodyAcc-mean()-X
+	tBodyAcc-mean()-X
 		
-	Translates as: *time domain measurements of body acceleration, mean value, X-axis*
+Translates as: *time domain measurements of body acceleration, mean value, X-axis*
 
 	Full List of variables, reproduced from *features.info*:
-		>tBodyAcc-XYZ
-		>tGravityAcc-XYZ
-		>tBodyAccJerk-XYZ
-		>tBodyGyro-XYZ
-		>tBodyGyroJerk-XYZ
-		>tBodyAccMag
-		>tGravityAccMag
-		>tBodyAccJerkMag
-		>tBodyGyroMag
-		>tBodyGyroJerkMag
-		>fBodyAcc-XYZ
-		>fBodyAccJerk-XYZ
-		>fBodyGyro-XYZ
-		>fBodyAccMag
-		>fBodyAccJerkMag	*named fBodyBodyAccJerkMag in actual data, typo?*
-		>fBodyGyroMag	*named fBodyBodyGyroMag in actual data, typo?*
-		>fBodyGyroJerkMag	*named fBodyBodyGyroJerkMag in actual data, typo?*
+
+	>tBodyAcc-XYZ
+	>tGravityAcc-XYZ
+	>tBodyAccJerk-XYZ
+	>tBodyGyro-XYZ
+	>tBodyGyroJerk-XYZ
+	>tBodyAccMag
+	>tGravityAccMag
+	>tBodyAccJerkMag
+	>tBodyGyroMag
+	>tBodyGyroJerkMag
+	>fBodyAcc-XYZ
+	>fBodyAccJerk-XYZ
+	>fBodyGyro-XYZ
+	>fBodyAccMag
+	>fBodyAccJerkMag	*named fBodyBodyAccJerkMag in actual data, typo?*
+	>fBodyGyroMag	*named fBodyBodyGyroMag in actual data, typo?*
+	>fBodyGyroJerkMag	*named fBodyBodyGyroJerkMag in actual data, typo?*
 		
-	Each of which has both a *-mean()* and *-std()* component.
+Each of which has both a *-mean()* and *-std()* component.
