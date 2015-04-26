@@ -11,8 +11,8 @@ a brief interlude with "activity_labels.txt".
 ##Codebook
 
 Subject	1
-	Subject ID - No other info available on participants
-	1..30
+ Subject ID - No other info available on participants
+ 1..30
 	
 Activity	Txt
 	Activity Type - Activity subject was engaged in at time of measurement
